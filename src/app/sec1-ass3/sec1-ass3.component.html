@@ -1,0 +1,13 @@
+<p>sec1-ass3 works!</p>
+
+<button (click)="showSecret = !showSecret"> Display Details </button>
+
+<p *ngIf="showSecret"> Secrer password = tuna </p>
+<hr>
+<button (click)="onToggel()"> Display Details </button>
+<div>
+    <p *ngFor="let logx of log; let i = index"
+    [ngStyle]="{backgroundColor: i >= 5 ? 'blue' : 'transparent'}"
+    [ngClass]="{'white-text': i >= 5 }"
+    > {{ logx }}</p>
+</div>
