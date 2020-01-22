@@ -7,6 +7,8 @@ import { Sec1Ass3Component } from './sec1-ass3/sec1-ass3.component';
 import { GamecontrolComponent } from './gamecontrol/gamecontrol.component';
 import { OddComponent } from './odd/odd.component';
 import { EvenComponent } from './even/even.component';
+import { ActiveUsersComponent } from './active-users/active-users.component';
+import { InactiveUsersComponent } from './inactive-users/inactive-users.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { EvenComponent } from './even/even.component';
     Sec1Ass3Component,
     GamecontrolComponent,
     OddComponent,
-    EvenComponent
+    EvenComponent,
+    ActiveUsersComponent,
+    InactiveUsersComponent
   ],
   imports: [
     BrowserModule,
